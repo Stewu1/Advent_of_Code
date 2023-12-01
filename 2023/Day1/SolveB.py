@@ -24,6 +24,7 @@ def convert_number(numb_as_string):
     else:
         return None
 
+
 with open("input.txt", "r") as file:
     combArrays = []
     for line in file.readlines():
